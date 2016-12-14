@@ -1,5 +1,6 @@
+'''Flask is pretty cool!  Who knows where this will go?!'''
+
 from flask import Flask, session, redirect, url_for, escape, request, render_template
-from time import sleep
 
 app = Flask(__name__)
 app.secret_key = '5\xb2\x9e\xf4\xc5\xca\x8c\xb7 vE\x86\xd5\xa6\xd1m\xf2\x90\xd5\xe4\\m?\xbe'
